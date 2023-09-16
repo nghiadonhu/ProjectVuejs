@@ -1,0 +1,483 @@
+/* nav a{
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+header .anh img {
+    width: auto;
+    max-height: 80px;
+    margin-left: 10%;
+}
+
+header .hotline {
+
+    margin-left: 10%;
+}
+
+header .hotline a {
+
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "SEGOEUIB";
+    color: #dd3333;
+    margin-left: 4px;
+}
+
+header .search {
+
+    margin-left: 20%;
+
+}
+
+header .search input {
+
+    width: 300px;
+    height: 20px;
+    padding: 7px 10px;
+    
+    color: #333;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f1f1f;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+header .search button {
+
+    border: 0;
+    position: absolute;
+    background: #ef233c;
+    line-height: 35px;
+    padding: 0 15px;
+   
+    color: white;
+    border:1px solid #333;
+}
+
+header .hotline {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+nav {
+    background: #ef233c;
+    height: 56px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+}
+
+.menu a {
+    padding: 0px 7px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #fff;
+    font-size: 17px;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+
+    color: #faeb31;
+}
+
+.submenu {
+    list-style: none;
+    position: absolute;
+    left: 10px;
+    display: none;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu img {
+    max-width: 50px;
+    height: auto;
+}
+
+.menu .dropdown {
+    margin-left: 10%;
+    margin-right: 3%;
+    width: 15.8%;
+    background-color: #dd3333;
+    
+}
+
+.menu .cart {
+    margin-left: 10%;
+    background-color: #dd3333;
+    /* padding: 5px 5px 10px 10px; */
+    /* height: 43px; */
+    border-radius: 20%;
+    height: 30px;
+    position: absolute;
+    top: 15px;;
+    right: 200px;
+    width: 4%;
+        
+}
+
+.menu .cart span {
+
+    line-height: 2 px;
+    font-size: 13px;
+
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.container .menuleft {
+    margin-left: 10%;
+    margin-top: 1.4%;
+    margin-right: 2%;
+}
+
+.container .menuleft ul li a {
+
+    text-decoration: none;
+    color: #333333;
+}
+
+.container .menuleft ul {
+    margin-top: 1%;
+    width: 230px;
+    list-style: none;
+    border: 1px solid #ccc;
+}
+
+.container .menuleft ul li {
+
+    width: 200px;
+    height: 20px;
+    border-top: 1px solid #ccc;
+    padding: 14px 14px;
+    text-transform: uppercase;
+}
+
+.slide img {
+    margin-top: 2.29%;
+    width: 90.6%;
+    height: 376px;
+}
+
+.content {
+    display: flex;
+    width: 22.5%;
+    margin-top: 1%;
+
+}
+
+.content .item {
+    width: 100%;
+    height: 1000%;
+    border: 1px solid #ccc;
+
+}
+
+.content .item img {
+    width: auto;
+    max-height: 200px;
+    margin: 20px 20px 20px 20px;
+    object-fit: cover;
+
+}
+
+.slide .sanpham {
+    margin-top: 2%;
+    display: block;
+    text-transform: uppercase;
+    background-color: #ef233c;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    font-weight: 600;
+    border-top-left-radius: 12px;
+    width: 20.7%;
+}
+
+.slide hr {
+    height: 3px;
+    background: #ef233c;
+    border: none;
+    width: 90.6%;
+}
+
+.content .item p {
+    font-weight: 600;
+    
+    padding: 2px 10px 10px 10px;
+
+}
+
+.content .item span {
+
+    font-weight: 600;
+    color: #ef233c;
+    padding: 2px 10px 10px 10px;
+
+}
+
+.contentduoi {
+    display: flex;
+    margin: 5% 10% 10% 5.4%;
+    justify-content: space-between;
+}
+
+.contentduoi .listcontent {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.contentduoi .listcontent .noidung {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.contentduoi .listcontent .noidung p {
+    color: #dd3333;
+    font-size: 15.2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contentduoi .listcontent .noidung span {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.panner {
+    display: flex;
+    background: #2b2d42;
+    /* margin-left: 10%;
+    margin-right: 6.5%;
+    margin-top:-7%; 
+    margin-bottom: 4%; */
+    margin: -7% 6.5% 4% 10%;
+}
+
+.panner .pannerimg {
+    /* padding-top:14px; */
+    padding: 15px 1px 10px 20px;
+    height: 100%;
+    align-items: center;
+
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #e1e1e1;
+}
+
+footer .footertop {
+    background: #e1e1e1;
+    display: flex;
+
+}
+
+footer .footertop .footercontent {
+
+    padding-left: 10%;
+}
+
+
+footer .footertop .footercontent h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 20px 0;
+    padding-left: 10%;
+    white-space: nowrap;
+
+}
+
+footer .footertop .footercontent p {
+    margin-bottom: 13px;
+
+}
+
+
+
+
+footer .footertop .footercontent .nd ul li {
+    list-style: none;
+    margin-bottom: 13px;
+    white-space: nowrap;
+}
+
+footer .footertop .footercontent .nd ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer .footertop .footercontent .nd {
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+footer .footertop .hai {
+    margin-left: -10%;
+}
+
+footer .footerbottom .footercontent {
+    background: #1a1c27;
+    padding: 20px 0;
+    border-top: 10px solid #ef233c;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+footer .footerbottom .footercontent .menu {
+    color: #bfbfbf;
+    padding: 0 90px;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 35px;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+
+}
+
+footer .footerbottom .footercontent .menu li {
+
+    /* padding: 12px; */
+    padding-left: 30px;
+
+
+
+
+}
+
+footer .footerbottom .footercontent .menu li p {
+
+    text-align: center;
+
+
+
+}
+
+
+
+footer .footerbottom .footercontent .footercontent2 {
+    color: #bfbfbf;
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+
+footer .footerbottom .footercontent .footercontent1 {
+    width: 43%;
+
+}
+
+footer .footerbottom .footercontent .ndduoi {
+    color: #bfbfbf;
+    padding: 0 10px;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+footer .footerbottom .footercontent .footercontent2 img {
+    margin-top: 13px;
+    max-height: 80px;
+
+}
+
+footer .footerbottom .footercontent .footercontent1 img {
+    max-height: 190px;
+    filter: grayscale(100%) brightness(150%)
+}
+
+/* CSS cho trang giỏ hàng */
+
+  
+  .carts {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  button {
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* CSS cho header và footer */
+  /* Đảm bảo bạn có CSS cho TheHeader và TheFooter */
+  
