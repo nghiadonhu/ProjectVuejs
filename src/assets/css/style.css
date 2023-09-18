@@ -427,9 +427,9 @@ footer .footerbottom .footercontent .footercontent1 img {
 
   
   .carts {
+    
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
     padding: 20px;
   }
   
@@ -437,11 +437,13 @@ footer .footerbottom .footercontent .footercontent1 img {
     font-size: 24px;
     margin-bottom: 20px;
     color: #333;
+    margin-left: 200px;
   }
   
   table {
-    width: 100%;
+    width: 200%;
     border-collapse: collapse;
+    margin-left: 200px;
   }
   
   th, td {
@@ -459,21 +461,29 @@ footer .footerbottom .footercontent .footercontent1 img {
     background-color: #f5f5f5;
   }
   
-  button {
+  .carts button {
     background-color: #ff5555;
     color: #fff;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+
+  .carts table tbody td button {
+    margin-left:10px;
+    margin-top:-10px;
   }
   
-  button:hover {
+  .carts button:hover {
     background-color: #ff0000;
   }
   
-  p {
+  .carts p {
     margin-top: 20px;
+    margin-left: 200px;
     font-size: 18px;
     font-weight: bold;
   }
