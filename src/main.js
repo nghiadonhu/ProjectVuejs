@@ -14,3 +14,4 @@ app.use(VueAxios,{$request: axios})
 app.use(store);
 app.mount('#app')
 
+

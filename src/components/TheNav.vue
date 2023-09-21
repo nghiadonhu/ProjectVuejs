@@ -21,7 +21,7 @@
             
                 <li class="cart">
     
-                    <span style="padding-left: 15px;color: white;" class="quanlity"> {{ cartsoluong }}</span>
+                    <span style="padding-left: 15px;color: white;" class="quanlity"> {{ tongsoluong }}</span>
                     <i style="padding-left: 5px;color: white;" class="fa-solid fa-bag-shopping"></i>
     
                 </li>
@@ -38,9 +38,11 @@ export default {
       msg: String
     },
     computed: {
-      cartsoluong() {
-      
-      return this.$store.state.cartsoluong;
+      tongsoluong() {
+      const items = this.$store.getters.tongsoluong;
+      console.log('Tổng số sản phẩm', items);
+      return items;
+    
     },
   },
    

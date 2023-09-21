@@ -1,6 +1,6 @@
 import { createStore } from 'vuex';
 import localStoragePlugin from './store/localStoragePlugin'; 
-
+import { message } from 'ant-design-vue';
 
 export default createStore({
   state: {
@@ -20,11 +20,13 @@ export default createStore({
       if (checkcart) {
         checkcart.quantity++;
         console.log('ok', state.cartItems);
-        window.confirm("Sản phẩm đã có trong giỏ hàng");
+        // window.confirm("Sản phẩm đã có trong giỏ hàng");
+        message.warning("Sản phẩm đã có trong giỏ hàng");
       } else {
         state.cartItems.push({ product, quantity: 1 });
         console.log('oke', state.cartItems);
-        window.confirm("Sản phẩm đã được thêm vào giỏ hàng");
+        // window.confirm("Sản phẩm đã được thêm vào giỏ hàng");
+        message.success("Sản phẩm đã được thêm vào giỏ hàng");
       }
       
     },
@@ -59,13 +61,7 @@ export default createStore({
     },
   },
   actions: {
-    // updateCart({ commit }, payload) {
-    //   commit('updateCart', payload);
-    // },
-
-    // clearCart({ commit }) {
-    //   commit('clearCart');
-    // },
+    
   },
   plugins: [localStoragePlugin], 
 });
