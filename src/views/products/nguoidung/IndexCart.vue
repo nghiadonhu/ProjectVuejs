@@ -40,7 +40,7 @@
         <p>Tổng số sản phẩm: {{ tongsoluong }}</p>
         <button @click="showDeleteConfirm">Xóa tất cả giỏ hàng</button>
 
-        <button style="background-color: blue;">Thanh toán</button>
+        <button style="background-color: blue;"><a href="/checkout">Thanh toán</a></button>
 
       </div>
     </div>

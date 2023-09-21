@@ -66,6 +66,11 @@ const routes = [
     path: '/cart',
     name: 'IndexCart',
     component: () => import(/* webpackChunkName: "about" */ '../views/products/nguoidung/IndexCart.vue')
+  },
+  {
+    path: '/checkout',
+    name: 'CheckOut',
+    component: () => import(/* webpackChunkName: "about" */ '../views/products/nguoidung/CheckOut.vue')
   }
 ]
 
