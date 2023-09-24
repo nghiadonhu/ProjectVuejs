@@ -1,4 +1,5 @@
 <template>
+    <p style="text-align: center;font-size: 50px; text-transform: uppercase;"> đăng nhập</p>
       <ProductTK/>
       <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
@@ -9,7 +10,9 @@
                                 <input type="text"
                                 v-model="product.username"
                                 @blur="validate()"
-                                class="form-control" placeholder="Username" required>
+                                class="form-control"
+                                v-bind:class="{ 'is-invalid': errors.password }"
+                                placeholder="Username" required>
                                 <div style="float:left" v-if="errors.username">{{ errors.username }}</div>
                             </div>
                             <div class="form-group">
@@ -17,9 +20,10 @@
                                  type="password" class="form-control" placeholder="Password"
                                  v-model="product.password"
                                  @blur="validate()"
+                                 v-bind:class="{ 'is-invalid': errors.password }"
                                     required>
                                 <div style="float:left" v-if="errors.password">{{ errors.password }}</div>
-                                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                <span toggle="#password-field" class="fa fa-fw field-icon toggle-password"></span>
                             </div>
 
                             
@@ -79,7 +83,7 @@ export default {
                 password: '',
             }
             if (!this.product.username) {
-                this.errors.password = 'Vui lòng nhập username';
+                this.errors.username = 'Vui lòng nhập username';
             }
             if (!this.product.password) {
                 this.errors.password = 'Vui lòng nhập password1';

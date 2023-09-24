@@ -44,6 +44,7 @@
     </template>
     <script>
     import ProductAdmin from "@/components/ProductAdmin.vue";
+    import 'bootstrap/dist/css/bootstrap.css';
     export default {
       name:'ProductSanPham',
       data() {

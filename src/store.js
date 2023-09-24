@@ -1,6 +1,8 @@
 import { createStore } from 'vuex';
 import localStoragePlugin from './store/localStoragePlugin'; 
 import { message } from 'ant-design-vue';
+import './assets/css/style.css';
+
 
 export default createStore({
   state: {

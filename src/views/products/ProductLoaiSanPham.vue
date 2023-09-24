@@ -44,6 +44,8 @@
   </template>
   <script>
   import ProductAdmin from "@/components/ProductAdmin.vue";
+  import 'bootstrap/dist/css/bootstrap.css';
+
   export default {
     name:'ProductLoaiSP',
     data() {
@@ -53,7 +55,7 @@
             messageFromParent: "Dữ liệu từ Component Cha"
         }
     },
-    created(){
+    created(){  
       console.log('OK');
       this.getAll()
     },

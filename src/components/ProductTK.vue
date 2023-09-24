@@ -1,16 +1,18 @@
 <template>
-    <p>{{ errors }}</p>
+
+   
+    <!-- <p>{{ errors }}</p> -->
     <div class="product-login">
         <div class="container">
-            <div class="row justify-content-center">
+            <!-- <div class="row justify-content-center">
                 <div class="col-md-6 text-center mb-5">
                     <h2 class="heading-section">Đăng kí #10</h2>
                 </div>
-            </div>
+            </div> -->
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="login-wrap p-0">
-                        <h3 class="mb-4 text-center">Have an account?</h3>
+                        <!-- <h3 class="mb-4 text-center">Have an account?</h3> -->
                         <!-- <form @submit.prevent="save()" class="signin-form">
                             <div class="form-group">
                                 <input type="text"
@@ -45,13 +47,13 @@
                                 </div>
                             </div>
                         </form> -->
-                        <p class="w-100 text-center">&mdash; Or Sign In With &mdash;</p>
-                        <div class="social d-flex text-center">
+                        <!-- <p class="w-100 text-center">&mdash; Or Sign In With &mdash;</p> -->
+                        <!-- <div class="social d-flex text-center">
                             <a href="#" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span>
                                 Facebook</a>
                             <a href="#" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span>
                                 Twitter</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -61,6 +63,7 @@
 </template>
 
 <script>
+import 'bootstrap/dist/css/bootstrap.css';
 export default {
     name: 'ProductTK',
     props: {

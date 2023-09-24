@@ -1,0 +1,480 @@
+{
+  "products": [
+    {
+      "MaLoai": "Loai1",
+      "name": "nghich",
+      "price": "3000000",
+      "description": "product 3",
+      "id": "xWbk1Ck9-ba7uQZZiFxpL",
+      "decscription": "qqq"
+    },
+    {
+      "MaLoai": "Loai1",
+      "name": "ádasd",
+      "price": "234234",
+      "description": "sdsadas",
+      "id": "xWbk1Ck9-ba7uQZZiFxpL",
+      "decscription": "555"
+    },
+    {
+      "MaLoai": "Loai2",
+      "name": "nghich3",
+      "price": "25000000",
+      "description": "Thông tin chi tiết sản phẩm Iphone 12",
+      "id": "oPSzE11HGgfcH0LJ4aSfd",
+      "decscription": "qe"
+    },
+    {
+      "MaLoai": "Loai2",
+      "name": "nghiate",
+      "price": "25000000",
+      "description": "Lapaa",
+      "id": "id1",
+      "decscription": "qe"
+    }
+  ],
+  "users": [
+    {
+      "id": "5YsFNN42B14VYHhpDyizn",
+      "name": "Administrator",
+      "email": "admin@gmail.com",
+      "password": 123456
+    },
+    {
+      "username": "nghia9x02@gmail.com",
+      "password": "nghia9x02@gmail.com",
+      "id": "Yt8X4n7jeMeGTvs9YaXJd"
+    },
+    {
+      "DonHangid": "DH2",
+      "HoTen": "Loai1",
+      "Sdt": "0989586544",
+      "DiaChi": "0989586544",
+      "GhiChu": "0989586544",
+      "name": "ádasd",
+      "price": "234234",
+      "description": "sdsadas",
+      "products": [],
+      "id": "4_Q3la9he8wnYtOY8hvzw"
+    },
+    {
+      "username": "daonhatviet2912@gmail.com",
+      "password": "daonhatviet2912@gmail.com",
+      "id": "5XZHyOfr0yk0SkjDP6G1J"
+    },
+    {
+      "username": "nghia10x02@gmail.com",
+      "password": "nghia10x02@gmail.com",
+      "name": "User",
+      "id": "iVWOAbFIpwS0B3QZM5Hfo"
+    },
+    {
+      "username": "trungruoi747@gmail.com",
+      "password": "trungruoi747@gmail.com",
+      "name": "User",
+      "id": "nEIZEl6pKsonZn9eqCYqo"
+    },
+    {
+      "username": "nghia9x02@gmail.com",
+      "password": "nghiadeptraii123",
+      "id": "WKJJz5H0rGi8-fpN-pmQJ"
+    },
+    {
+      "username": "q",
+      "password": "q",
+      "id": "CBX7GZB-M9bNwzInto34j"
+    },
+    {
+      "username": "q",
+      "password": "123",
+      "password2": "",
+      "id": "tPd7mwMVVcFKRCioxuiKb"
+    },
+    {
+      "username": "q",
+      "password": "123",
+      "password2": "1234",
+      "id": "vRI1jkqdLmUUTMwxcK1fk"
+    },
+    {
+      "username": "q",
+      "password": "123",
+      "password2": "123",
+      "id": "xiIrvRC1njrpezDXvCo9r"
+    },
+    {
+      "username": "nghia123@gmail.com",
+      "password": "123",
+      "password2": "123",
+      "id": "UmitDBzJLL9DYiMSd1qk6"
+    },
+    {
+      "username": "qqeqe",
+      "password": "123",
+      "password2": "123",
+      "id": "ejc5s2dImps36b6Fnq3Oh"
+    }
+  ],
+  "DonHang": [
+    {
+      "id": "",
+      "DonHangid": "DH1",
+      "HoTen": "Loai1",
+      "Sdt": "0989586544",
+      "DiaChi": "0989586544",
+      "email": "nghiadonhu96@gmail.com",
+      "GhiChu": "0989586544",
+      "name": "ádasd",
+      "price": "234234",
+      "description": "sdsadas",
+      "products": [
+        {
+          "name": "ádasd",
+          "price": "234234",
+          "description": "sdsadas"
+        },
+        {
+          "name": "qq",
+          "price": "23e4234",
+          "description": "sdsadas"
+        }
+      ]
+    },
+    {
+      "id": "I80-I8gIOkxHNdNXRFnvw",
+      "MaLoai": "Loai5",
+      "MaXe": "Xe3",
+      "TenXe": "Nghia1"
+    },
+    {
+      "DonHangid": "DH2",
+      "HoTen": "Loai1",
+      "Sdt": "0989586544",
+      "DiaChi": "0989586544",
+      "GhiChu": "0989586544",
+      "name": "ádasd",
+      "price": "234234",
+      "description": "sdsadas",
+      "id": "tUmW9BOGuWo3KUoKe2cy3"
+    },
+    {
+      "HoTen": "q",
+      "Sdt": "0989536321",
+      "DiaChi": "q",
+      "name": "",
+      "price": "",
+      "description": "",
+      "GhiChu": "q",
+      "id": "wZMvqiBiZe1TY8cMWfe9Z"
+    },
+    {
+      "HoTen": "aaa",
+      "Sdt": "0989536321",
+      "DiaChi": "qêq",
+      "name": "",
+      "price": "",
+      "description": "",
+      "GhiChu": "qeqe",
+      "id": "RBsFaE0dyxr7Rq6S7xTEE"
+    },
+    {
+      "HoTen": "test2",
+      "Sdt": "0989536321",
+      "DiaChi": "qq",
+      "name": "",
+      "price": "",
+      "description": "",
+      "GhiChu": "ee",
+      "id": "6s5HFojcVqholfIfUtqXh"
+    },
+    {
+      "HoTen": "aaa",
+      "Sdt": "0989536321",
+      "DiaChi": "qeqe",
+      "name": "",
+      "price": "",
+      "description": "",
+      "GhiChu": "ee",
+      "id": "RcGe_hS6da9CZFyTWnoRF"
+    },
+    {
+      "HoTen": "test3",
+      "Sdt": "0989536321",
+      "DiaChi": "qeqeqe",
+      "GhiChu": "qeqe",
+      "id": "9JcMPr4fpb6CYSPWw_ufX"
+    },
+    {
+      "HoTen": "q",
+      "Sdt": "e",
+      "DiaChi": "q",
+      "name": "nghich3",
+      "price": "25000000",
+      "description": "Thông tin chi tiết sản phẩm Iphone 12",
+      "GhiChu": "q",
+      "id": "eagPuM6wRyCiQPT0O__J3"
+    },
+    {
+      "HoTen": "aaa",
+      "Sdt": "0989536321",
+      "DiaChi": "a",
+      "products": [
+        {},
+        {}
+      ],
+      "GhiChu": "a",
+      "id": "Ez970wT33yrPGLtlSOdvq"
+    },
+    {
+      "DonHangid": "DH2",
+      "HoTen": "Loai1",
+      "Sdt": "0989586544",
+      "DiaChi": "0989586544",
+      "GhiChu": "0989586544",
+      "name": "ádasd",
+      "price": "234234",
+      "description": "sdsadas",
+      "products": [],
+      "id": "-JiVg6969wN_7tBqTTkJe"
+    },
+    {
+      "HoTen": "aaaae",
+      "Sdt": "0989536321",
+      "DiaChi": "aa",
+      "products": [
+        {
+          "name": "nghich",
+          "price": "3000000",
+          "description": "product 3"
+        },
+        {
+          "name": "nghich3",
+          "price": "25000000",
+          "description": "Thông tin chi tiết sản phẩm Iphone 12"
+        },
+        {
+          "name": "nghiate",
+          "price": "25000000",
+          "description": "Lapaa"
+        }
+      ],
+      "GhiChu": "dd",
+      "id": "95WLUVoI4Bo1FRsMSvBGN"
+    },
+    {
+      "HoTen": "aaaae3",
+      "Sdt": "0989536321",
+      "DiaChi": "qqq",
+      "products": [
+        {
+          "name": "nghich",
+          "price": "3000000",
+          "description": "product 3"
+        },
+        {
+          "name": "nghich3",
+          "price": "25000000",
+          "description": "Thông tin chi tiết sản phẩm Iphone 12"
+        },
+        {
+          "name": "nghiate",
+          "price": "25000000",
+          "description": "Lapaa"
+        }
+      ],
+      "GhiChu": "q",
+      "id": "zQtJNUwtVa-5xpsF9U1Jc"
+    },
+    {
+      "HoTen": "",
+      "Sdt": "",
+      "DiaChi": "",
+      "products": [
+        {
+          "name": "nghich",
+          "price": "3000000",
+          "description": "product 3"
+        },
+        {
+          "name": "nghich3",
+          "price": "25000000",
+          "description": "Thông tin chi tiết sản phẩm Iphone 12"
+        }
+      ],
+      "id": "B5RKeSXzSs7ZdaHiUqYuq"
+    },
+    {
+      "HoTen": "",
+      "Sdt": "",
+      "DiaChi": "",
+      "products": [],
+      "id": "-xmr-SyJo97Z8TtPb92P6"
+    },
+    {
+      "HoTen": "test2",
+      "Sdt": "0989536321",
+      "DiaChi": "aa",
+      "products": [
+        {
+          "name": "nghich",
+          "price": "3000000",
+          "description": "product 3"
+        },
+        {
+          "name": "nghich3",
+          "price": "25000000",
+          "description": "Thông tin chi tiết sản phẩm Iphone 12"
+        }
+      ],
+      "GhiChu": "aa",
+      "id": "nb9dSIuEe0EkOQQaJWuyD"
+    },
+    {
+      "HoTen": "test2",
+      "Sdt": "0989536321",
+      "DiaChi": "k",
+      "products": [
+        {
+          "name": "nghich",
+          "price": "3000000",
+          "description": "product 3"
+        }
+      ],
+      "GhiChu": "k",
+      "id": "FcTZSVknI-X9RDlvssY8C"
+    },
+    {
+      "HoTen": "aaa",
+      "Sdt": "0989536321",
+      "DiaChi": "q",
+      "email": "nghia9x02@gmail.com",
+      "products": [
+        {
+          "name": "nghich3",
+          "price": "25000000",
+          "description": "Thông tin chi tiết sản phẩm Iphone 12"
+        }
+      ],
+      "GhiChu": "q",
+      "id": "TpplGtR6ByDGTCCBsyOH0"
+    },
+    {
+      "HoTen": "test2",
+      "Sdt": "0989536321",
+      "DiaChi": "a",
+      "email": "nghia9x02@gmail.com",
+      "products": [
+        {
+          "name": "nghich",
+          "price": "3000000",
+          "description": "product 3"
+        }
+      ],
+      "GhiChu": "a",
+      "id": "jTd6fgoowhzvc6re521--"
+    },
+    {
+      "HoTen": "test2",
+      "Sdt": "0989536321",
+      "DiaChi": "a",
+      "email": "daonhatviet2912@gmail.com",
+      "products": [
+        {
+          "name": "ádasd",
+          "price": "234234",
+          "description": "sdsadas"
+        },
+        {
+          "name": "nghich3",
+          "price": "25000000",
+          "description": "Thông tin chi tiết sản phẩm Iphone 12"
+        }
+      ],
+      "GhiChu": "a",
+      "id": "IvYGOuaJdTm5d7m3txPih"
+    },
+    {
+      "HoTen": "test3",
+      "Sdt": "0989536321",
+      "DiaChi": "a",
+      "email": "nghia10x02@gmail.com",
+      "products": [
+        {
+          "name": "nghich",
+          "price": "3000000",
+          "description": "product 3"
+        },
+        {
+          "name": "nghich3",
+          "price": "25000000",
+          "description": "Thông tin chi tiết sản phẩm Iphone 12"
+        }
+      ],
+      "GhiChu": "a",
+      "id": "9hZuQ9P-m7HEFZKsr48Vg"
+    },
+    {
+      "HoTen": "aaaaead",
+      "Sdt": "0989536321",
+      "DiaChi": "a",
+      "email": "trungruoi747@gmail.com",
+      "products": [
+        {
+          "name": "ádasd",
+          "price": "234234",
+          "description": "sdsadas"
+        },
+        {
+          "name": "nghich3",
+          "price": "25000000",
+          "description": "Thông tin chi tiết sản phẩm Iphone 12"
+        }
+      ],
+      "GhiChu": "a",
+      "id": "X4atteCa4agu7mUb4hOtm"
+    }
+  ],
+  "CTDH": [
+    {
+      "id": "qqe",
+      "DonHangid": "DH1",
+      "MaLoai": "Loai1",
+      "name": "nghich",
+      "price": "3000000",
+      "description": "product 3"
+    }
+  ],
+  "LoaiXe": [
+    {
+      "id": "",
+      "MaLoai": "Loai1",
+      "TenLoai": "Administrator"
+    },
+    {
+      "id": "mP2Z74gLjCdszYacYtRMU",
+      "MaLoai": "Loai5",
+      "MaXe": "Xe3",
+      "TenXe": "Nghia1"
+    }
+  ],
+  "XeMay": [
+    {
+      "id": "",
+      "MaLoai": "Loai1",
+      "MaXe": "Xe1",
+      "TenXe": "Honda"
+    },
+    {
+      "id": "WFWf35nubT3ITR4x_oZxX",
+      "MaLoai": "Loai1",
+      "MaXe": "Xe2",
+      "TenXe": "Nghia"
+    },
+    {
+      "id": "0VCe5ZzYNmAP7fGFA72no",
+      "MaLoai": "Loai5",
+      "MaXe": "Xe3",
+      "TenXe": "Nghia1"
+    }
+  ]
+}
